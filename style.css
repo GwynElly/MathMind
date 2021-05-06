@@ -1,21 +1,77 @@
+body {
+    font-size: 26px;
+}
+
+.answerP {
+  padding: 0px;
+  display: flex;
+  width: 80px;
+  margin: auto;
+}
 .NumbersL {
   margin-top: 100px;
   border: dotted 1px;
   display: block;
-  max-width: 300px;
+  max-width: 400px;
   max-height: 300px;
+
 }
 
 .Answer {
-  margin-top: 15px;
-max-width: 40px;
-max-height: 20px;
+    text-decoration:none;
+    margin-top: 25px;
+    margin-left: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #ced6e0;
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+    padding: 5px 15px;
+    background: none;
+    color: #1a3b5d;
+    font-family: "Source Sans Pro", sans-serif;
+    box-sizing: border-box;
 }
 
 .divNumber {
-    //border: dotted 1px;
   margin-top: 50px;
   margin-left: 30px;
-  display: inline-flex;
-  justify-content: space-between;
+  margin-right: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.answerCheck {
+  padding: 0 20px;
+    outline: none;
+  border: none;  
+  border-radius: 4px;
+  height: 32px;
+  color: #fff;
+  background-color: #3775dd;
+  box-shadow: 0 2px #21487f;
+  vertical-align: top;
+      width: 100px;
+    margin: auto;
+    display: flex;
+
+}
+.answerCheck:active {
+  background-color: #2f599e !important;
+}
+
+
+input {
+  outline:none;
+  border: none;
+}
+input:hover {
+border-color: #3d9cff;
+}
+input:focus {
+border-color: #3d9cff;
+box-shadow: 0px 10px 20px -13px rgba(32, 56, 117, 0.35);
 }
